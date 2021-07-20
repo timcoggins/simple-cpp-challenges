@@ -1,7 +1,16 @@
-#include <stdio.h>
+#include <iostream>
+#include <vector>
+#include <string>
 
-int main(void)
+using namespace std;
+
+int main()
 {
-    printf("\nHello Pinda\n");
-    return 0;
+    vector<string> msg{"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+
+    for (const string &word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
 }
