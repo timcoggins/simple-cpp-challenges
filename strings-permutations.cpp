@@ -34,7 +34,7 @@ void permute(string a, int l, int r)
 // Driver Code
 int main()
 {
-    string str = "ABC";
+    string str = "PINDAFRIEND";
     int n = str.size();
     permute(str, 0, n - 1);
     return 0;
